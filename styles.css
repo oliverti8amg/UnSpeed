@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #535353; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+}
+
+header {
+    background-color: #222; /* Fondo header más oscuro */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px; /* Tamaño de fuente aumentado */
+}
+
+main {
+    padding: 20px;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.productos article {
+    border: 1px solid #e5ff00; /* Borde más oscuro */
+    padding: 10px;
+    text-align: center;
+    background-color: #222222; /* Fondo de los productos */
+}
+
+.productos article img {
+    max-width: 100%;
+    height: 330px;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.productos article h2 {
+    color: #ffcc00; /* Texto amarillo neon */
+}
+
+.productos article p {
+    color: #ccc; /* Texto gris claro */
+}
+
+.productos article button {
+    background-color: #ffcc00; /* Fondo del botón amarillo neon */
+    color: #111; /* Texto oscuro para contraste */
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.productos article button:hover {
+    background-color: #eee; /* Cambio de color al pasar el mouse */
+    color: #111;
+}
+
+footer {
+    background-color: #222; /* Fondo del footer más oscuro */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
